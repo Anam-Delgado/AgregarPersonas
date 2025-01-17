@@ -35,4 +35,20 @@ public class Profesor extends Empleado{
 	}
 	
 	
+	     // MÉTODOS IMPLEMENTADOS (INTERFACE-->PERSONA-->PROFESOR)
+	@Override
+	public void guardar() {
+		System.out.println("Se ha guardado correctamente el Profesor");	
+	}
+	@Override
+	public void eliminar() {
+		System.out.println("Se ha eliminado correctamente el Profesor");	
+	}
+	@Override
+	public void modificar() {
+		System.out.println("Se ha modificado correctamente el Profesor");
+		
+	}
+	
+	
 }

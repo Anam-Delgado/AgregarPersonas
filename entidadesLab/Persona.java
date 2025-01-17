@@ -2,17 +2,19 @@ package entidadesLab;
 
 import java.util.Date;
 
-public abstract class Persona {
+import interfacesLab.Persistencia;
+
+public abstract class Persona implements Persistencia {
 	private String nombre;
 	private String apellido;
 	private Documento documento;
 	private Date fechaNacimiento;	
 //CONSTRUCTORES
 	public Persona(){
-		//super();
+		super();
 	}	
 	public Persona(String nombre, String apellido, Documento documento, Date fechaNacimiento){
-		//super();
+		super();
 	this.nombre = nombre;
 	this.apellido = apellido;
 	this.documento= documento;	

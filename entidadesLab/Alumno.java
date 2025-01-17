@@ -35,4 +35,19 @@ public class Alumno extends Persona {
 	}
 	
 	
+	@Override
+	public void guardar() {
+		System.out.println("Se ha guardado correctamente el Alumno");	
+	}
+	@Override
+	public void eliminar() {
+		System.out.println("Se ha eliminado correctamente el Alumno");		
+	}
+	@Override
+	public void modificar() {
+		System.out.println("Se ha modificado correctamente el Alumno");
+		
+	}
+	
+	
 }
